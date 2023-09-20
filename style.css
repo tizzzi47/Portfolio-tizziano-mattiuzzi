@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+body {
+    font-family: 'Cinzel', serif;
+    background-image: url(imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bnav {
+    display: inline;
+    margin: 1%;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    color: white;
+
+}
+
+.bnav:hover {
+    color: red;
+}
+
+.izq {
+    margin-right: 45%;
+}
+
+nav {
+    border: 5px ridge rgb(193, 8, 8);
+    padding: 2%;
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(147, 5, 5, 0.56) 0px 22px 70px 4px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#presentacion {
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+    color: rgb(255, 255, 255);
+    border: 5px ridge rgb(193, 8, 8);
+    padding: 2%;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(134, 2, 2, 0.56) 0px 22px 70px 4px;
+}
+
+#yop {
+    width: 400px;
+}
+
+#portfolio {
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    color: white;
+    border: 5px ridge rgb(193, 8, 8);
+    padding: 2%;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(134, 2, 2, 0.56) 0px 22px 70px 4px;
+    ;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 4%;
+}
+
+.img_portfolio {
+    width: 350px;
+}
+
+.img_portfolio:active {
+    box-shadow: rgba(181, 5, 5, 0.4) -5px 5px, rgba(169, 5, 5, 0.3) -10px 10px, rgba(197, 5, 5, 0.2) -15px 15px, rgba(186, 5, 5, 0.1) -20px 20px, rgba(169, 5, 5, 0.05) -25px 25px;
+}
+
+#acercademi {
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    color: white;
+    border: 5px ridge rgb(193, 8, 8);
+    padding: 2%;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(134, 2, 2, 0.56) 0px 22px 70px 4px;
+
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 4%;
+}
+
+#contacto {
+
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    color: white;
+    border: 5px ridge rgb(193, 8, 8);
+    padding: 2%;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(134, 2, 2, 0.56) 0px 22px 70px 4px;
+
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 4%;
+    margin-bottom: 15%;
+}
+
+input,
+textarea {
+    background-color: rgb(198, 8, 8);
+
+    color: white;
+}
+
+#redes {
+    margin: auto;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 1em rgb(255, 0, 0), 0 0 0.2em rgb(255, 0, 0);
+    color: white;
+    padding: 2%;
+    backdrop-filter: blur(5px);
+    box-shadow: rgba(134, 2, 2, 0.56) 0px 22px 70px 4px;
+    background-color: rgba(184, 3, 3, 0.441);
+    padding: 4%;
+}
+.redess{
+    width: 50px;
+   height: 50px;
+
+}
